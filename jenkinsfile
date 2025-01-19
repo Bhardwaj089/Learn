@@ -16,7 +16,7 @@ pipeline {
           steps {
               echo ' Start reviewing code...'
            }
-      
+        } 
     stage('Deploy') {
           steps {
                echo 'Start deploying....'
@@ -24,4 +24,3 @@ pipeline {
       }    
            
     }
-}
