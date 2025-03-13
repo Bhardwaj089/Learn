@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx3-image:v9.0.0
+          image: docker.io/bhardwaj21/nginx-custom/nginx3-image:v9.0.0
           ports:
             - containerPort: 7000
